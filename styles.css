@@ -1,0 +1,579 @@
+/*
+  The styles for page "Використання діодів.Інтерактивна демонстрація двох напів-періодного випрямлення струму.html"
+  Creared and edited by M.Yatsyn, 2019.
+*/
+@font-face
+{
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+
+    src: local('Roboto-Regular'),
+    url('./Roboto-Regular-webfont.woff') format('woff');
+}
+
+html,
+body
+{
+    font-family: 'Roboto-Regular', 'PT Sans', sans-serif;
+    font-size: 16px;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-color: #317199; /*головний колір заливки*/
+}
+
+header
+{
+    min-height: 40px;
+}
+
+h1
+{
+    margin-left: 10px;
+
+    text-align: center;
+}
+
+h2
+{
+    margin-left: 20px;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #000;
+}
+
+header .description
+{
+    font-size: 14px;
+
+    position: absolute;
+    z-index: 3;
+
+    width: 300px;
+    padding: 0 5px 0 5px;
+
+    -webkit-transition: top 1s ease-out .5s;
+       -moz-transition: top 1s ease-out .5s;
+            transition: top 1s ease-out .5s;
+    text-align: justify;
+    text-align-last: center;
+    text-indent: 10px;
+
+    background-color: #ffa07a;
+}
+.text-1
+{
+    top: -420px;
+    right: 20px;
+}
+.text-2
+{
+    top: -270px;
+    right: 20px;
+}
+.description:hover
+{
+    top: 0;
+
+    background-color: #fff5ee;
+}
+
+main
+{
+    min-height: 400px;
+}
+
+main .animation-1
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url('img/start-point-single.png') no-repeat #317199 center;
+}
+.slide-1
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/anim+10up.gif) no-repeat #317199 center;
+} .slide-2
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/anim+20up.gif) no-repeat #317199 center;
+} .slide-3
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/anim+30.gif) no-repeat #317199 center;
+} .slide-4
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/anim+20down.gif) no-repeat #317199 center;
+} .slide-5
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/anim+10down.gif) no-repeat #317199 center;
+} .slide-6
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/positive-point-single.png) no-repeat #317199 center;
+} .slide-7
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/anim-10up.png) no-repeat #317199 center;
+} .slide-8
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/anim-20up.png) no-repeat #317199 center;
+} .slide-9
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/anim-30.png) no-repeat #317199 center;
+} .slide-10
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/anim-20down.png) no-repeat #317199 center;
+} .slide-11
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/anim-10down.png) no-repeat #317199 center;
+} .slide-12
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1032px;
+    height: 558px;
+
+    background: url(img/negative-point-single.png) no-repeat #317199 center;
+}
+
+main .animation-2
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/start-point-double.png) no-repeat #317199 center;
+}
+.slide-13
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/double-anim+10up.gif) no-repeat #317199 center;
+} .slide-14
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/double-anim+20up.gif) no-repeat #317199 center;
+} .slide-15
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/double-anim+30.gif) no-repeat #317199 center;
+} .slide-16
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/double-anim+20down.gif) no-repeat #317199 center;
+} .slide-17
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/double-anim+10down.gif) no-repeat #317199 center;
+} .slide-18
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/positive-point-double.png) no-repeat #317199 center;
+} .slide-19
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/double-anim-10up.png) no-repeat #317199 center;
+} .slide-20
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/double-anim-20up.png) no-repeat #317199 center;
+} .slide-21
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/double-anim-30.png) no-repeat #317199 center;
+} .slide-22
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/double-anim-20down.png) no-repeat #317199 center;
+} .slide-23
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/double-anim-10down.png) no-repeat #317199 center;
+} .slide-24
+{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 10px;
+
+    width: 1064px;
+    height: 633px;
+
+    background: url(img/negative-point-double.png) no-repeat #317199 center;
+}
+
+main .quantity-1
+{
+    position: relative;
+    z-index: 2;
+    top: 125px;
+
+    width: 130px;
+    height: 105px;
+    margin-left: 50px;
+
+    border: 2px solid #000;
+    background: #fff5ee;
+}
+main .quantity-2
+{
+    position: relative;
+    z-index: 2;
+    top: 175px;
+
+    width: 130px;
+    height: 105px;
+    margin-left: 50px;
+
+    border: 2px solid #000;
+    background: #fff5ee;
+}
+
+
+.quantity-1 .subtitle
+{
+    position: relative;
+    top: -52px;
+    left: 75px;
+
+    display: inline;
+}
+.quantity-2 .subtitle
+{
+    position: relative;
+    top: -52px;
+    left: 75px;
+
+    display: inline;
+}
+
+input[type="button"]
+{
+    font-size: 24px;
+
+    position: relative;
+
+    display: block;
+
+    width: 35px;
+    height: 35px;
+
+    cursor: pointer;
+
+    background-color: #e1e8ee;
+}
+
+.quantity-1 .minus-button
+{
+    top: -40px;
+    left: 10px;
+}
+.quantity-2 .minus-button
+{
+    top: -40px;
+    left: 10px;
+}
+
+.quantity-1 .plus-button
+{
+    top: 10px;
+    left: 10px;
+}
+.quantity-2 .plus-button
+{
+    top: 10px;
+    left: 10px;
+}
+
+.quantity-1 .number
+{
+    font-size: 24px;
+    font-weight: 500;
+
+    position: relative;
+    top: -15px;
+    left: 55px;
+
+    display: block;
+
+    width: 60px;
+    height: 60px;
+
+    cursor: default;
+    text-align: center;
+}
+.quantity-2 .number
+{
+    font-size: 24px;
+    font-weight: 500;
+
+    position: relative;
+    top: -15px;
+    left: 55px;
+
+    display: block;
+
+    width: 60px;
+    height: 60px;
+
+    cursor: default;
+    text-align: center;
+}
+
+footer
+{
+    position: relative;
+
+    width: 100%;
+    min-height: 60px;
+
+    background-color: #fff5ee;
+}
+
+.control-buttons
+{
+    position: relative;
+
+    text-align: left;
+}
+
+.control-buttons ul > li > a > img
+{
+    width: 48px;
+    height: 48px;
+
+    vertical-align: middle;
+
+    border: none;
+}
+ul > li > a > img:hover
+{
+    box-shadow: 0 0 5px #a9a9a9;
+}
+
+.control-buttons ul
+{
+    position: relative;
+    padding-left: 30px;
+    top: 15px;
+}
+
+.control-buttons li
+{
+    display: inline;
+
+    margin-left: 15px;
+
+    list-style: none;
+
+    text-align: center;
+}
+ul li:nth-child(1)
+{
+    margin: 0;
+}
+
+ul li:nth-child(n+2)
+{
+    padding: 5px 10px;
+
+    border: 1px solid #000;
+    background-color: #f5f5dc;
+}
+li:nth-child(n+2):hover
+{
+    background-color: #90ee90;
+    box-shadow: 0 0 5px #a9a9a9;
+}
+
+footer .copyright
+{
+    font-size: 12px;
+
+    position: relative;
+    right: 20px;
+    bottom: 35px;
+
+    text-align: right;
+    white-space: pre-wrap;
+}

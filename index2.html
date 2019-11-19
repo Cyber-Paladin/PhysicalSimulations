@@ -1,0 +1,44 @@
+<!--The main page "Використання діодів.Інтерактивна демонстрація двох напів-періодного випрямлення струму.html"
+  creared and edited by M.Yatsyn, 2019.-->
+<!DOCTYPE html>
+<html lang="uk-UA">
+	<head>
+		<title>Використання діодів 2.Інтерактивна демонстрація двох напів-періодного випрямлення струму</title>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<meta name="robots" content="noindex">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+		<script type="text/javascript" src="app2.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Використання діодів</h1>
+			<div class="description text-2">
+				Більш ефективно випрямлення змінної напруги відбувається у схемі з чотирма діодами - у містковій схемі.
+				Протягом позитивного напів-періоду зміни вхідної напруги  Ua(+) діоди VD1 і VD4 відкриті, а VD2 i VD3 – закриті. Струм буде проходити шляхом: верхня гілка (+), діод VD1 , навантаження, діод VD4, нижня гілка (-).
+				Протягом негативного напів- періоду  зміни вхідної напруги VD1 і VD4 закриті, а VD2 i VD3 – відкриті. Тому шлях струму  інший. Тобто  за час тривалістю двох напів-періодів зміни вхідної напруги вихідний струм через навантаження буде проходити, але мати один і той же знак.
+				<br>&#8595; Показати комментарі &#8595;
+			</div>
+		</header>
+		<main>
+			<h2>Інтерактивна демонстрація двох напів-періодного випрямлення електричного струму</h2>
+			<div class="quantity-2">
+				<input type="button" value="&#8743;" name="button2" class="plus-button">
+				<input type="text" name="number" value="0" class="number" readonly>
+				<input type="button" value="&#8744;" name="button1" class="minus-button" disabled>
+				<p class="subtitle"><b>U,B</b></p>
+			</div>
+			<div class="slider animation-2"><!--empty zone--></div>
+		</main>
+		<footer>
+			<section class="control-buttons">
+				<ul>
+					<li><a title="На головну" href="http://www.moodle.fi.npu.edu.ua/kudi_lab/index.html"><img src=".\img\back-home.png" alt="на головну"></a></li>
+					<li><a href="#">Дослід 1</a></li>
+					<li><a title="Дослід вже активований">Дослід 2</a></li>
+				</ul>
+			</section>
+			<section class="copyright">© 2017-2019, НПУ імені М.П. Драгоманова::Факультет інформатики</section>
+		</footer>
+	</body>
+</html>

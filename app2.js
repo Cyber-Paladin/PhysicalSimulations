@@ -32,6 +32,9 @@ function btnClick1(t, stop, togv, togc, add) {
 		$('.plus-button').prop('disabled', false);
 		$('.minus-button').prop('disabled', true);
 	}
+	if (togc == "slide-24 slide-23")
+		 $('.reset-button').show();
+	else $('.reset-button').hide();
 }
 
 $(".minus-button").on("click", function(e) { //обробник події кліку для кнопки .minus-button

@@ -20,6 +20,7 @@ function btnClick(t, stop, togv, togc, add) {
 	} else {
 		value = stop;
 	}
+
 	$input.val(value);
 	$('div.slider').toggleClass(togc);
 	if (value == 30) {
@@ -32,6 +33,9 @@ function btnClick(t, stop, togv, togc, add) {
 		$('.plus-button').prop('disabled', false);
 		$('.minus-button').prop('disabled', true);
 	}
+	if (togc == 'slide-12 slide-11')
+		 $('.reset-button').show();
+	else $('.reset-button').hide();
 }
 
 $('.minus-button').on('click', function(e) { //обробник події кліку для кнопки .minus-button
